@@ -213,9 +213,9 @@ export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze }) {
 
           {/* Divider */}
           <div className="flex items-center gap-3">
-            <div className="flex-1 h-px bg-slate-100" />
-            <span className="text-[11px] text-slate-400">or</span>
-            <div className="flex-1 h-px bg-slate-100" />
+            <div className="flex-1 h-px bg-slate-200" />
+            <span className="text-xs font-medium text-slate-400 uppercase tracking-wide">or</span>
+            <div className="flex-1 h-px bg-slate-200" />
           </div>
 
           {/* Upload */}
@@ -224,9 +224,9 @@ export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze }) {
             <button
               onClick={() => fileInputRef.current?.click()}
               disabled={uploadStatus === 'loading'}
-              className="w-full flex items-center justify-center gap-2 py-3 border border-dashed border-slate-200
-                         rounded-lg text-xs text-slate-400 hover:border-slate-300 hover:text-slate-500
-                         transition-all cursor-pointer"
+              className="w-full flex items-center justify-center gap-2 py-3.5 border-2 border-dashed border-slate-300
+                         rounded-lg text-sm text-slate-500 hover:border-slate-400 hover:text-slate-600
+                         hover:bg-slate-50 transition-all cursor-pointer"
             >
               {uploadStatus === 'loading' ? (
                 <div className="w-4 h-4 border-2 border-slate-400 border-t-transparent rounded-full animate-spin" />

@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import LandingHero from './components/LandingHero';
 import PortfolioInput from './components/PortfolioInput';
 import ScoreCard from './components/ScoreCard';
@@ -19,8 +19,24 @@ function App() {
   const recsRef = useRef(null);
   const inputRef = useRef(null);
 
+  // Sync browser history with view state
+  useEffect(() => {
+    const onPopState = (e) => {
+      const target = e.state?.view || 'landing';
+      setView(target);
+      if (target === 'landing') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    };
+    window.addEventListener('popstate', onPopState);
+    // Replace current entry with landing state on mount
+    window.history.replaceState({ view: 'landing' }, '');
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
+
   const handleGetStarted = () => {
     setView('input');
+    window.history.pushState({ view: 'input' }, '');
     setTimeout(() => {
       inputRef.current?.scrollIntoView({ behavior: 'smooth' });
     }, 100);
@@ -36,6 +52,7 @@ function App() {
       setAnalysis(result);
       setRecommendations(recs);
       setView('results');
+      window.history.pushState({ view: 'results' }, '');
       setIsAnalyzing(false);
 
       setTimeout(() => {
@@ -49,6 +66,8 @@ function App() {
     setAnalysis(null);
     setRecommendations([]);
     setView('landing');
+    // Replace history instead of pushing, so back doesn't cycle through resets
+    window.history.pushState({ view: 'landing' }, '');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
