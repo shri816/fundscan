@@ -221,6 +221,12 @@ export default function Recommendations({ recommendations }) {
           )}
         </button>
       )}
+
+      <p className="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-400 leading-relaxed">
+        These recommendations are directional — based on portfolio overlap, concentration, and expense patterns.
+        They don't account for your tax situation, risk appetite, or investment horizon, and are not a guarantee of future returns.
+        Consult a SEBI-registered advisor before making any changes.
+      </p>
     </div>
   );
 }
