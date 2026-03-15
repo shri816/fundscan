@@ -3,6 +3,22 @@ import { Search, X, Plus, FileSpreadsheet, AlertCircle, CheckCircle, ArrowRight,
 import { searchFunds, searchStocks } from '../data/funds';
 import { parsePortfolioFile } from '../utils/fileParser';
 
+function searchExternalFunds(query, allFunds) {
+  const q = query.toLowerCase();
+  const results = [];
+  for (const f of allFunds) {
+    const nameMatch = f.schemeName?.toLowerCase().includes(q);
+    const shortMatch = f.shortName?.toLowerCase().includes(q);
+    const houseMatch = f.fundHouse?.toLowerCase().includes(q);
+    const catMatch = f.category?.toLowerCase().includes(q);
+    if (nameMatch || shortMatch || houseMatch || catMatch) {
+      results.push(f);
+      if (results.length >= 10) break;
+    }
+  }
+  return results;
+}
+
 const QUICK_FUNDS = [
   'Axis Bluechip',
   'Parag Parikh Flexi Cap',
@@ -30,7 +46,7 @@ function generateId() {
   return `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
 }
 
-export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze }) {
+export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze, allFunds, dataStats }) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
@@ -100,13 +116,15 @@ export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze }) {
     if (debounceRef.current) clearTimeout(debounceRef.current);
     if (!value.trim()) { setResults([]); setShowDropdown(false); return; }
     debounceRef.current = setTimeout(() => {
-      const fundResults = searchFunds(value).map((f) => ({ ...f, _type: 'fund' }));
+      const fundResults = allFunds
+        ? searchExternalFunds(value, allFunds).map((f) => ({ ...f, _type: 'fund' }))
+        : searchFunds(value).map((f) => ({ ...f, _type: 'fund' }));
       const stockResults = searchStocks(value).map((s) => ({ ...s, _type: 'stock' }));
       const combined = [...fundResults, ...stockResults].slice(0, 8);
       setResults(combined);
       setShowDropdown(combined.length > 0);
     }, 250);
-  }, []);
+  }, [allFunds]);
 
   const addToPortfolio = useCallback((item) => {
     const type = item._type;
@@ -178,9 +196,18 @@ export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze }) {
                            border-b border-slate-50 last:border-b-0"
               >
                 {item._type === 'fund' ? (
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-slate-800">{item.shortName || item.schemeName}</span>
-                    <span className="text-[11px] text-slate-400 ml-2 shrink-0">{item.category}</span>
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-sm text-slate-800 truncate">{item.shortName || item.schemeName}</span>
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      {item.dataQuality === 'search-only' && (
+                        <span className="text-[10px] text-amber-600 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded">
+                          no holdings
+                        </span>
+                      )}
+                      {item.category && (
+                        <span className="text-[11px] text-slate-400">{item.category}</span>
+                      )}
+                    </div>
                   </div>
                 ) : (
                   <div className="flex items-center justify-between">
@@ -193,6 +220,15 @@ export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze }) {
           </div>
         )}
       </div>
+
+      {/* Database stats */}
+      {dataStats && (
+        <p className="mt-1.5 text-[11px] text-slate-400 text-right">
+          {dataStats.totalSchemes.toLocaleString()} funds searchable
+          {' · '}{dataStats.schemesWithHoldings} with full holdings
+          {dataStats.fetchError && <span className="text-amber-500"> · data may be stale</span>}
+        </p>
+      )}
 
       {/* Quick add + Upload row */}
       {!hasItems && (
@@ -288,7 +324,7 @@ export default function PortfolioInput({ portfolio, setPortfolio, onAnalyze }) {
                   {item.type === 'fund' && (!item.data.holdings || item.data.holdings.length === 0) && (
                     <span className="inline-flex items-center gap-0.5 ml-1.5 text-amber-500">
                       <Info className="w-3 h-3 inline" />
-                      <span>No holdings data</span>
+                      <span>overlap analysis unavailable</span>
                     </span>
                   )}
                 </p>

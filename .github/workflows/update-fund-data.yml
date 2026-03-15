@@ -1,0 +1,41 @@
+name: Update Fund Data
+
+on:
+  schedule:
+    # Runs every Sunday at 2am UTC (7:30am IST)
+    - cron: '0 2 * * 0'
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Scrape AMC holdings and rebuild fund data
+        run: node scripts/fetch-fund-data.cjs
+
+      - name: Commit updated fund data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/funds-data.json src/data/holdings-snapshot.json
+          if git diff --staged --quiet; then
+            echo "No changes to fund data."
+          else
+            SCHEMES=$(node -e "const d=require('./public/funds-data.json'); console.log(d.totalSchemes)")
+            WITH_HOLDINGS=$(node -e "const d=require('./public/funds-data.json'); console.log(d.schemesWithHoldings)")
+            git commit -m "chore: update fund data (${SCHEMES} schemes, ${WITH_HOLDINGS} with holdings)"
+            git push
+          fi

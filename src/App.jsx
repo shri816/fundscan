@@ -8,6 +8,7 @@ import ExpenseView from './components/ExpenseView';
 import Recommendations, { TopIssues } from './components/Recommendations';
 import { generateFullAnalysis } from './utils/analysis';
 import { generateRecommendations } from './utils/recommendations';
+import { useFundsData } from './hooks/useFundsData';
 
 function App() {
   const [portfolio, setPortfolio] = useState([]);
@@ -18,6 +19,7 @@ function App() {
   const resultsRef = useRef(null);
   const recsRef = useRef(null);
   const inputRef = useRef(null);
+  const { allFunds, dataStats } = useFundsData();
 
   // Sync browser history with view state
   useEffect(() => {
@@ -99,6 +101,8 @@ function App() {
               onAnalyze={handleAnalyze}
               isAnalyzing={isAnalyzing}
               hasResults={view === 'results'}
+              allFunds={allFunds}
+              dataStats={dataStats}
             />
           </div>
         )}
@@ -120,20 +124,23 @@ function App() {
               if (noHoldings.length === 0) return null;
               const fundNames = noHoldings.map(p => p.data.shortName || p.data.schemeName);
               return (
-                <div className="bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-xs text-slate-600">
+                <div className="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-xs text-slate-600">
                   <p className="font-semibold text-slate-700 mb-1">
-                    Can't analyze {noHoldings.length === 1 ? 'this fund' : `these ${noHoldings.length} funds`} for overlap
+                    Partial analysis — {noHoldings.length === 1 ? '1 fund' : `${noHoldings.length} funds`} missing holdings data
                   </p>
                   <div className="flex flex-wrap gap-1.5 mb-2">
                     {fundNames.map((name, i) => (
-                      <span key={i} className="bg-white border border-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded">
+                      <span key={i} className="bg-white border border-amber-200 text-slate-700 text-xs px-2 py-0.5 rounded">
                         {name}
                       </span>
                     ))}
                   </div>
                   <p className="text-slate-500">
-                    {noHoldings.length === 1 ? 'This fund is' : 'These funds are'} outside our database of 50 funds, so we don't have holdings data.
-                    {' '}Expense ratios and invested amounts are still included in the analysis.
+                    We couldn't find holdings data for {noHoldings.length === 1 ? 'this fund' : 'these funds'}, so overlap analysis is incomplete.
+                    {' '}Expense ratios and invested amounts are still included in the score.
+                    {dataStats?.schemesWithHoldings && (
+                      <> Our holdings database covers {dataStats.schemesWithHoldings} funds — we're expanding it over time.</>
+                    )}
                   </p>
                 </div>
               );
