@@ -121,7 +121,8 @@ const COL_PATTERNS = {
 function detectColumns(headerRow) {
   const cols = {};
   headerRow.forEach((cell, idx) => {
-    const c = String(cell).toLowerCase().trim();
+    // Normalize newlines/extra spaces so "% to Net\n Assets" still matches "% to net asset"
+    const c = String(cell).toLowerCase().replace(/\s+/g, ' ').trim();
     for (const [field, patterns] of Object.entries(COL_PATTERNS)) {
       if (!cols[field] && patterns.some((p) => c.includes(p))) {
         cols[field] = idx;
@@ -155,7 +156,7 @@ function parseSheetHoldings(ws) {
 
   if (headerIdx === -1 || cols.name === undefined) return [];
 
-  const holdings = [];
+  const rawHoldings = [];
   for (let i = headerIdx + 1; i < rows.length; i++) {
     const row = rows[i];
     const rawName = String(row[cols.name] || '').trim();
@@ -170,13 +171,17 @@ function parseSheetHoldings(ws) {
     // Validate ISIN: must be 12 chars starting with 2 letters
     if (!/^[A-Z]{2}[A-Z0-9]{10}$/.test(rawIsin)) continue;
 
-    holdings.push({
-      stock: rawName,
-      isin: rawIsin,
-      weight: Math.round(rawWeight * 100) / 100,
-      sector: rawSector || 'Unknown',
-    });
+    rawHoldings.push({ stock: rawName, isin: rawIsin, weight: rawWeight, sector: rawSector || 'Unknown' });
   }
+
+  // Some AMCs (e.g. PPFAS) store weights as decimal fractions (0.073) instead of percentages (7.3).
+  // Detect this: if all weights are < 1 and their sum is close to 1, multiply by 100.
+  const totalWeight = rawHoldings.reduce((s, h) => s + h.weight, 0);
+  const isDecimalFormat = rawHoldings.length > 0 && totalWeight < 2;
+  const holdings = rawHoldings.map((h) => ({
+    ...h,
+    weight: Math.round((isDecimalFormat ? h.weight * 100 : h.weight) * 100) / 100,
+  }));
 
   return holdings;
 }
@@ -330,18 +335,35 @@ async function scrapePPFAS(allSchemes) {
     }
     console.log(`    Found ${latestByCode.size} PPFAS fund files`);
 
+    // Hardcoded map: fund code → full name used in mfapi.in scheme names
+    const PPFAS_NAMES = {
+      PPFCF:  'Parag Parikh Flexi Cap Fund',
+      PPLF:   'Parag Parikh Liquid Fund',
+      PPTSF:  'Parag Parikh Tax Saver Fund',
+      PPCHF:  'Parag Parikh Conservative Hybrid Fund',
+      PPAF:   'Parag Parikh Arbitrage Fund',
+      PPDAAF: 'Parag Parikh Dynamic Asset Allocation Fund',
+      PPLCF:  'Parag Parikh Large Cap Fund',
+    };
+
     for (const [code, url] of latestByCode) {
       await sleep(REQUEST_DELAY_MS);
       try {
         const buf = await fetchBinary(url);
         const sheets = parseWorkbook(buf);
-        for (const [sheetName, holdings] of Object.entries(sheets)) {
-          // PPFAS file: sheet name is usually the fund name or "Portfolio"
-          const fundNameGuess = sheetName.includes('Portfolio') ? code : sheetName;
-          const matches = matchFundToSchemes(`Parag Parikh ${fundNameGuess}`, allSchemes);
-          if (matches.length > 0) {
-            results.push({ scheme: matches[0], holdings, holdingsDate: new Date().toISOString().split('T')[0] });
-          }
+        // Merge all sheets for this fund (equity + foreign securities)
+        const allHoldings = Object.values(sheets).flat();
+        if (allHoldings.length === 0) {
+          console.log(`    PPFAS ${code}: no holdings parsed`);
+          continue;
+        }
+        const fundName = PPFAS_NAMES[code] || `Parag Parikh ${code}`;
+        const matches = matchFundToSchemes(fundName, allSchemes);
+        if (matches.length > 0) {
+          results.push({ scheme: matches[0], holdings: allHoldings, holdingsDate: new Date().toISOString().split('T')[0] });
+          console.log(`    PPFAS ${code}: ${allHoldings.length} holdings → ${matches[0].schemeName}`);
+        } else {
+          console.log(`    PPFAS ${code}: no scheme match for "${fundName}"`);
         }
       } catch (e) {
         console.log(`    PPFAS ${code}: ${e.message}`);
