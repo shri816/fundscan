@@ -683,152 +683,164 @@
       {
         "stock": "HDFC Bank Limited",
         "isin": "INE040A01034",
-        "weight": 7.96,
+        "weight": 8.33,
         "sector": "Banks"
       },
       {
         "stock": "Power Grid Corporation of India Limited",
         "isin": "INE752E01010",
-        "weight": 7.16,
+        "weight": 6.23,
         "sector": "Power"
-      },
-      {
-        "stock": "Coal India Limited",
-        "isin": "INE522F01014",
-        "weight": 6.11,
-        "sector": "Consumable Fuels"
-      },
-      {
-        "stock": "ICICI Bank Limited",
-        "isin": "INE090A01021",
-        "weight": 5.03,
-        "sector": "Banks"
       },
       {
         "stock": "ITC Limited",
         "isin": "INE154A01025",
-        "weight": 5,
+        "weight": 6.07,
         "sector": "Diversified FMCG"
+      },
+      {
+        "stock": "ICICI Bank Limited",
+        "isin": "INE090A01021",
+        "weight": 5.52,
+        "sector": "Banks"
+      },
+      {
+        "stock": "Coal India Limited",
+        "isin": "INE522F01014",
+        "weight": 5.35,
+        "sector": "Consumable Fuels"
       },
       {
         "stock": "Bajaj Holdings & Investment Limited",
         "isin": "INE118A01012",
-        "weight": 4.09,
+        "weight": 4.63,
         "sector": "Finance"
       },
       {
         "stock": "Kotak Mahindra Bank Limited",
         "isin": "INE237A01036",
-        "weight": 4.02,
+        "weight": 4.23,
         "sector": "Banks"
       },
       {
         "stock": "Mahindra & Mahindra Limited",
         "isin": "INE101A01026",
-        "weight": 3.36,
+        "weight": 3.56,
         "sector": "Automobiles"
       },
       {
         "stock": "HCL Technologies Limited",
         "isin": "INE860A01027",
-        "weight": 3.11,
+        "weight": 3.44,
         "sector": "IT - Software"
       },
       {
         "stock": "Axis Bank Limited",
         "isin": "INE238A01034",
-        "weight": 2.99,
+        "weight": 3.16,
         "sector": "Banks"
+      },
+      {
+        "stock": "Infosys Limited",
+        "isin": "INE009A01021",
+        "weight": 2.98,
+        "sector": "IT - Software"
       },
       {
         "stock": "Bharti Airtel Limited",
         "isin": "INE397D01024",
-        "weight": 2.93,
+        "weight": 2.94,
         "sector": "Telecom - Services"
       },
       {
         "stock": "Maruti Suzuki India Limited",
         "isin": "INE585B01010",
-        "weight": 2.9,
+        "weight": 2.84,
         "sector": "Automobiles"
-      },
-      {
-        "stock": "Infosys Limited",
-        "isin": "INE009A01021",
-        "weight": 2.61,
-        "sector": "IT - Software"
       },
       {
         "stock": "Tata Consultancy Services Limited",
         "isin": "INE467B01029",
-        "weight": 2.27,
+        "weight": 2.51,
         "sector": "IT - Software"
-      },
-      {
-        "stock": "Dr. Reddy's Laboratories Limited",
-        "isin": "INE089A01031",
-        "weight": 1.34,
-        "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "Zydus Lifesciences Limited",
         "isin": "INE010B01027",
-        "weight": 1.27,
+        "weight": 1.49,
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "Cipla Limited",
         "isin": "INE059A01026",
-        "weight": 1.26,
+        "weight": 1.47,
         "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "stock": "Dr. Reddy's Laboratories Limited",
+        "isin": "INE089A01031",
+        "weight": 1.27,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "stock": "Indraprastha Gas Limited",
+        "isin": "INE203G01027",
+        "weight": 1.09,
+        "sector": "Gas"
       },
       {
         "stock": "Zydus Wellness Limited",
         "isin": "INE768C01028",
-        "weight": 0.73,
+        "weight": 0.89,
         "sector": "Food Products"
       },
       {
         "stock": "Indian Energy Exchange Limited",
         "isin": "INE022Q01020",
-        "weight": 0.72,
+        "weight": 0.73,
         "sector": "Capital Markets"
       },
       {
         "stock": "EID Parry India Limited",
         "isin": "INE126A01031",
-        "weight": 0.44,
+        "weight": 0.5,
         "sector": "Food Products"
-      },
-      {
-        "stock": "Balkrishna Industries Limited",
-        "isin": "INE787D01026",
-        "weight": 0.37,
-        "sector": "Auto Components"
       },
       {
         "stock": "Narayana Hrudayalaya Limited",
         "isin": "INE410P01011",
-        "weight": 0.25,
+        "weight": 0.27,
         "sector": "Healthcare Services"
       },
       {
         "stock": "The Great Eastern Shipping Company Limited",
         "isin": "INE017A01032",
-        "weight": 0.24,
+        "weight": 0.23,
         "sector": "Transport Services"
       },
       {
         "stock": "Central Depository Services (India) Limited",
         "isin": "INE736A01011",
-        "weight": 0.2,
+        "weight": 0.21,
         "sector": "Capital Markets"
+      },
+      {
+        "stock": "Petronet LNG Limited",
+        "isin": "INE347G01014",
+        "weight": 0.2,
+        "sector": "Gas"
       },
       {
         "stock": "CMS Info System Limited",
         "isin": "INE925R01014",
-        "weight": 0.14,
+        "weight": 0.19,
         "sector": "Commercial Services & Supplies"
+      },
+      {
+        "stock": "Mahanagar Gas Limited",
+        "isin": "INE002S01010",
+        "weight": 0.13,
+        "sector": "Gas"
       },
       {
         "stock": "ICRA Limited",
@@ -839,7 +851,7 @@
       {
         "stock": "Maharashtra Scooters Limited",
         "isin": "INE288A01013",
-        "weight": 0.07,
+        "weight": 0.09,
         "sector": "Finance"
       },
       {
@@ -851,7 +863,7 @@
       {
         "stock": "CIE Automotive India Limited",
         "isin": "INE536H01010",
-        "weight": 0.02,
+        "weight": 0.01,
         "sector": "Auto Components"
       },
       {
@@ -865,15 +877,9 @@
         "isin": "INE317F01035",
         "weight": 0.01,
         "sector": "Commercial Services & Supplies"
-      },
-      {
-        "stock": "Indraprastha Gas Limited",
-        "isin": "INE203G01027",
-        "weight": 0.01,
-        "sector": "Gas"
       }
     ],
-    "holdingsDate": "2026-04-19"
+    "holdingsDate": "2026-07-12"
   },
   {
     "schemeCode": "112090",
@@ -5583,123 +5589,129 @@
     "aum": null,
     "holdings": [
       {
-        "stock": "Samvardhana Motherson International Limited",
-        "isin": "INE775A01035",
-        "weight": 4.86,
-        "sector": "Auto Components"
+        "stock": "Trent Limited",
+        "isin": "INE849A01020",
+        "weight": 4.44,
+        "sector": "Retailing"
       },
       {
         "stock": "Eternal Limited",
         "isin": "INE758T01015",
-        "weight": 4.21,
+        "weight": 4.32,
         "sector": "Retailing"
       },
       {
         "stock": "Varun Beverages Limited",
         "isin": "INE200M01039",
-        "weight": 4.19,
+        "weight": 3.91,
         "sector": "Beverages"
-      },
-      {
-        "stock": "Trent Limited",
-        "isin": "INE849A01020",
-        "weight": 3.92,
-        "sector": "Retailing"
       },
       {
         "stock": "Info Edge (India) Limited",
         "isin": "INE663F01032",
-        "weight": 3.9,
+        "weight": 3.73,
         "sector": "Retailing"
       },
       {
         "stock": "ZF Commercial Vehicle Control Systems India Limited",
         "isin": "INE342J01019",
-        "weight": 3.65,
+        "weight": 3.5,
         "sector": "Auto Components"
-      },
-      {
-        "stock": "3M India Limited",
-        "isin": "INE470A01017",
-        "weight": 3.32,
-        "sector": "Diversified"
       },
       {
         "stock": "Avenue Supermarts Limited",
         "isin": "INE192R01011",
-        "weight": 3.17,
+        "weight": 3.33,
         "sector": "Retailing"
+      },
+      {
+        "stock": "3M India Limited",
+        "isin": "INE470A01017",
+        "weight": 3.24,
+        "sector": "Diversified"
       },
       {
         "stock": "FSN E-Commerce Ventures Limited",
         "isin": "INE388Y01029",
-        "weight": 2.93,
+        "weight": 3.06,
         "sector": "Retailing"
       },
       {
-        "stock": "Swiggy Limited",
-        "isin": "INE00H001014",
-        "weight": 2.91,
-        "sector": "Retailing"
-      },
-      {
-        "stock": "Siemens Energy India Limited",
-        "isin": "INE1NPP01017",
-        "weight": 2.73,
-        "sector": "Electrical Equipment"
+        "stock": "Samvardhana Motherson International Limited",
+        "isin": "INE775A01035",
+        "weight": 3.03,
+        "sector": "Auto Components"
       },
       {
         "stock": "Axis Bank Limited",
         "isin": "INE238A01034",
-        "weight": 2.72,
+        "weight": 2.77,
+        "sector": "Banks"
+      },
+      {
+        "stock": "ICICI Bank Limited",
+        "isin": "INE090A01021",
+        "weight": 2.71,
         "sector": "Banks"
       },
       {
         "stock": "Bajaj Finserv Limited",
         "isin": "INE918I01026",
-        "weight": 2.7,
+        "weight": 2.62,
         "sector": "Finance"
       },
       {
-        "stock": "ICICI Bank Limited",
-        "isin": "INE090A01021",
-        "weight": 2.55,
-        "sector": "Banks"
+        "stock": "Swiggy Limited",
+        "isin": "INE00H001014",
+        "weight": 2.62,
+        "sector": "Retailing"
+      },
+      {
+        "stock": "Siemens Energy India Limited",
+        "isin": "INE1NPP01017",
+        "weight": 2.52,
+        "sector": "Electrical Equipment"
       },
       {
         "stock": "Kirloskar Oil Engines Limited",
         "isin": "INE146L01010",
-        "weight": 2.33,
+        "weight": 2.41,
         "sector": "Industrial Products"
-      },
-      {
-        "stock": "ABB India Limited",
-        "isin": "INE117A01022",
-        "weight": 2.17,
-        "sector": "Electrical Equipment"
       },
       {
         "stock": "Sun Pharmaceutical Industries Limited",
         "isin": "INE044A01036",
-        "weight": 2.06,
+        "weight": 2.07,
         "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "stock": "ABB India Limited",
+        "isin": "INE117A01022",
+        "weight": 2.05,
+        "sector": "Electrical Equipment"
       },
       {
         "stock": "Syngene International Limited",
         "isin": "INE398R01022",
-        "weight": 2.05,
+        "weight": 1.98,
         "sector": "Healthcare Services"
       },
       {
         "stock": "Krishna Institute Of Medical Sciences Limited",
         "isin": "INE967H01025",
-        "weight": 2.03,
+        "weight": 1.95,
         "sector": "Healthcare Services"
+      },
+      {
+        "stock": "Honasa Consumer Limited",
+        "isin": "INE0J5401028",
+        "weight": 1.91,
+        "sector": "Personal Products"
       },
       {
         "stock": "Hindustan Aeronautics Limited",
         "isin": "INE066F01020",
-        "weight": 1.9,
+        "weight": 1.88,
         "sector": "Aerospace & Defense"
       },
       {
@@ -5709,99 +5721,111 @@
         "sector": "Auto Components"
       },
       {
-        "stock": "LG Electronics India Ltd",
-        "isin": "INE324D01010",
-        "weight": 1.85,
-        "sector": "Consumer Durables"
+        "stock": "InterGlobe Aviation Limited",
+        "isin": "INE646L01027",
+        "weight": 1.84,
+        "sector": "Transport Services"
       },
       {
-        "stock": "PB Fintech Limited",
-        "isin": "INE417T01026",
-        "weight": 1.75,
-        "sector": "Financial Technology (Fintech)"
+        "stock": "LG Electronics India Ltd",
+        "isin": "INE324D01010",
+        "weight": 1.83,
+        "sector": "Consumer Durables"
       },
       {
         "stock": "Coforge Limited",
         "isin": "INE591G01025",
-        "weight": 1.75,
+        "weight": 1.76,
         "sector": "IT - Software"
       },
       {
-        "stock": "Honasa Consumer Limited",
-        "isin": "INE0J5401028",
-        "weight": 1.74,
-        "sector": "Personal Products"
-      },
-      {
-        "stock": "Delhivery Limited",
-        "isin": "INE148O01028",
-        "weight": 1.71,
-        "sector": "Transport Services"
-      },
-      {
-        "stock": "Siemens Limited",
-        "isin": "INE003A01024",
-        "weight": 1.65,
-        "sector": "Electrical Equipment"
-      },
-      {
-        "stock": "Tata Motors Passenger Vehicles Limited",
-        "isin": "INE155A01022",
+        "stock": "PB Fintech Limited",
+        "isin": "INE417T01026",
         "weight": 1.63,
-        "sector": "Automobiles"
-      },
-      {
-        "stock": "ICICI Lombard General Insurance Company Limited",
-        "isin": "INE765G01017",
-        "weight": 1.58,
-        "sector": "Insurance"
+        "sector": "Financial Technology (Fintech)"
       },
       {
         "stock": "One 97 Communications Limited",
         "isin": "INE982J01020",
-        "weight": 1.52,
+        "weight": 1.51,
         "sector": "Financial Technology (Fintech)"
       },
       {
         "stock": "Dixon Technologies (India) Limited",
         "isin": "INE935N01020",
-        "weight": 1.49,
+        "weight": 1.5,
         "sector": "Consumer Durables"
+      },
+      {
+        "stock": "Siemens Limited",
+        "isin": "INE003A01024",
+        "weight": 1.5,
+        "sector": "Electrical Equipment"
+      },
+      {
+        "stock": "ICICI Lombard General Insurance Company Limited",
+        "isin": "INE765G01017",
+        "weight": 1.49,
+        "sector": "Insurance"
       },
       {
         "stock": "Maruti Suzuki India Limited",
         "isin": "INE585B01010",
-        "weight": 1.37,
+        "weight": 1.43,
         "sector": "Automobiles"
       },
       {
-        "stock": "Bajaj Auto Limited",
-        "isin": "INE917I01010",
-        "weight": 1.35,
+        "stock": "Tata Motors Passenger Vehicles Limited",
+        "isin": "INE155A01022",
+        "weight": 1.41,
         "sector": "Automobiles"
-      },
-      {
-        "stock": "Timken India Limited",
-        "isin": "INE325A01013",
-        "weight": 1.27,
-        "sector": "Industrial Products"
-      },
-      {
-        "stock": "Sanofi Consumer Healthcare India Limited",
-        "isin": "INE0UOS01011",
-        "weight": 1.24,
-        "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "Infosys Limited",
         "isin": "INE009A01021",
-        "weight": 1.13,
+        "weight": 1.29,
         "sector": "IT - Software"
+      },
+      {
+        "stock": "Delhivery Limited",
+        "isin": "INE148O01028",
+        "weight": 1.25,
+        "sector": "Transport Services"
+      },
+      {
+        "stock": "Bajaj Auto Limited",
+        "isin": "INE917I01010",
+        "weight": 1.22,
+        "sector": "Automobiles"
+      },
+      {
+        "stock": "Sanofi Consumer Healthcare India Limited",
+        "isin": "INE0UOS01011",
+        "weight": 1.21,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "stock": "Timken India Limited",
+        "isin": "INE325A01013",
+        "weight": 1.19,
+        "sector": "Industrial Products"
+      },
+      {
+        "stock": "Rainbow Childrens Medicare Limited",
+        "isin": "INE961O01016",
+        "weight": 1.08,
+        "sector": "Healthcare Services"
       },
       {
         "stock": "Jubilant Foodworks Limited",
         "isin": "INE797F01020",
-        "weight": 1.13,
+        "weight": 1.07,
+        "sector": "Leisure Services"
+      },
+      {
+        "stock": "Restaurant Brands Asia Limited",
+        "isin": "INE07T201019",
+        "weight": 1.03,
         "sector": "Leisure Services"
       },
       {
@@ -5813,98 +5837,92 @@
       {
         "stock": "Niva Bupa Health Insurance Company Limited",
         "isin": "INE995S01015",
-        "weight": 0.96,
+        "weight": 0.94,
         "sector": "Insurance"
       },
       {
         "stock": "Kaynes Technology India Limited",
         "isin": "INE918Z01012",
-        "weight": 0.95,
+        "weight": 0.92,
         "sector": "Industrial Manufacturing"
       },
       {
-        "stock": "InterGlobe Aviation Limited",
-        "isin": "INE646L01027",
-        "weight": 0.93,
-        "sector": "Transport Services"
-      },
-      {
-        "stock": "Restaurant Brands Asia Limited",
-        "isin": "INE07T201019",
-        "weight": 0.92,
-        "sector": "Leisure Services"
+        "stock": "Kansai Nerolac Paints Limited",
+        "isin": "INE531A01024",
+        "weight": 0.9,
+        "sector": "Consumer Durables"
       },
       {
         "stock": "SBI Cards and Payment Services Limited",
         "isin": "INE018E01016",
-        "weight": 0.87,
+        "weight": 0.8,
         "sector": "Finance"
+      },
+      {
+        "stock": "Max Financial Services Limited",
+        "isin": "INE180A01020",
+        "weight": 0.8,
+        "sector": "Insurance"
       },
       {
         "stock": "GE Vernova T&D India Limited",
         "isin": "INE200A01026",
-        "weight": 0.84,
+        "weight": 0.79,
         "sector": "Electrical Equipment"
+      },
+      {
+        "stock": "TBO Tek Limited",
+        "isin": "INE673O01025",
+        "weight": 0.73,
+        "sector": "Leisure Services"
       },
       {
         "stock": "eMudhra Limited",
         "isin": "INE01QM01018",
-        "weight": 0.77,
+        "weight": 0.71,
         "sector": "IT - Services"
       },
       {
         "stock": "Divi's Laboratories Limited",
         "isin": "INE361B01024",
-        "weight": 0.74,
+        "weight": 0.71,
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
-        "stock": "Rainbow Childrens Medicare Limited",
-        "isin": "INE961O01016",
-        "weight": 0.65,
-        "sector": "Healthcare Services"
-      },
-      {
-        "stock": "TBO Tek Limited",
-        "isin": "INE673O01025",
-        "weight": 0.65,
-        "sector": "Leisure Services"
+        "stock": "Bharat Dynamics Limited",
+        "isin": "INE171Z01026",
+        "weight": 0.59,
+        "sector": "Aerospace & Defense"
       },
       {
         "stock": "Sanofi India Limited",
         "isin": "INE058A01010",
-        "weight": 0.54,
+        "weight": 0.57,
         "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "stock": "JSW Energy Limited",
+        "isin": "INE121E01018",
+        "weight": 0.55,
+        "sector": "Power"
+      },
+      {
+        "stock": "Meesho Ltd",
+        "isin": "INE0VDM01015",
+        "weight": 0.53,
+        "sector": "Retailing"
       },
       {
         "stock": "Craftsman Automation Limited",
         "isin": "INE00LO01017",
-        "weight": 0.48,
+        "weight": 0.49,
         "sector": "Auto Components"
       },
       {
         "stock": "Sapphire Foods India Limited",
         "isin": "INE806T01020",
-        "weight": 0.48,
+        "weight": 0.47,
         "sector": "Leisure Services"
-      },
-      {
-        "stock": "Kansai Nerolac Paints Limited",
-        "isin": "INE531A01024",
-        "weight": 0.29,
-        "sector": "Consumer Durables"
-      },
-      {
-        "stock": "Max Financial Services Limited",
-        "isin": "INE180A01020",
-        "weight": 0.28,
-        "sector": "Insurance"
-      },
-      {
-        "stock": "Sonata Software Limited",
-        "isin": "INE269A01021",
-        "weight": 0.06,
-        "sector": "IT - Software"
       },
       {
         "stock": "Urban Company Ltd.",
@@ -5913,7 +5931,7 @@
         "sector": "Retailing"
       }
     ],
-    "holdingsDate": "2026-05-31"
+    "holdingsDate": "2026-06-30"
   },
   {
     "schemeCode": "100851",
@@ -57759,175 +57777,187 @@
     "aum": null,
     "holdings": [
       {
-        "stock": "LIC Housing Finance Limited**",
-        "isin": "INE115A07PK2",
-        "weight": 0.05,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Small Industries Development Bank of India**",
-        "isin": "INE556F08JY8",
-        "weight": 0.03,
-        "sector": "ICRA AAA"
-      },
-      {
-        "stock": "Small Industries Development Bank of India**",
-        "isin": "INE556F08JZ5",
-        "weight": 0.03,
-        "sector": "ICRA AAA"
-      },
-      {
-        "stock": "Cholamandalam Investment and Finance Company Limited**",
-        "isin": "INE121A07QQ5",
-        "weight": 0.02,
+        "stock": "Godrej Properties Limited**",
+        "isin": "INE484J08048",
+        "weight": 3.18,
         "sector": "ICRA AA+"
-      },
-      {
-        "stock": "Power Finance Corporation Limited**",
-        "isin": "INE134E08LO4",
-        "weight": 0.02,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Tata Power Company Limited**",
-        "isin": "INE245A08141",
-        "weight": 0.02,
-        "sector": "IND AA+"
-      },
-      {
-        "stock": "National Housing Bank**",
-        "isin": "INE557F08FP2",
-        "weight": 0.02,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Tata Capital Limited**",
-        "isin": "INE976I08391",
-        "weight": 0.02,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "National Bank for Agriculture and Rural Development**",
-        "isin": "INE261F08DX0",
-        "weight": 0.02,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "LIC Housing Finance Limited**",
-        "isin": "INE115A07PW7",
-        "weight": 0.02,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Sundaram Finance Limited**",
-        "isin": "INE660A07RO5",
-        "weight": 0.02,
-        "sector": "ICRA AAA"
-      },
-      {
-        "stock": "Power Finance Corporation Limited**",
-        "isin": "INE134E08KT5",
-        "weight": 0.01,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Mahindra & Mahindra Financial Services Limited**",
-        "isin": "INE774D07UT1",
-        "weight": 0.01,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Cholamandalam Investment and Finance Company Limited**",
-        "isin": "INE121A07QJ0",
-        "weight": 0.01,
-        "sector": "ICRA AA+"
-      },
-      {
-        "stock": "Power Finance Corporation Limited**",
-        "isin": "INE134E08KP3",
-        "weight": 0.01,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Export-Import Bank of India**",
-        "isin": "INE514E08FY8",
-        "weight": 0.01,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "LIC Housing Finance Limited**",
-        "isin": "INE115A07HT0",
-        "weight": 0.01,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "National Bank for Agriculture and Rural Development**",
-        "isin": "INE261F08DP6",
-        "weight": 0.01,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Muthoot Finance Limited**",
-        "isin": "INE414G07HT4",
-        "weight": 0.01,
-        "sector": "CRISIL AA+"
-      },
-      {
-        "stock": "National Bank for Agriculture and Rural Development**",
-        "isin": "INE261F08DQ4",
-        "weight": 0.01,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Small Industries Development Bank of India**",
-        "isin": "INE556F08KA6",
-        "weight": 0.01,
-        "sector": "ICRA AAA"
       },
       {
         "stock": "Aditya Birla Renewables Limited**",
         "isin": "INE01QP08016",
-        "weight": 0.01,
+        "weight": 2.05,
         "sector": "CRISIL AA"
       },
       {
-        "stock": "Sundaram Finance Limited**",
-        "isin": "INE660A07RP2",
-        "weight": 0.01,
-        "sector": "ICRA AAA"
+        "stock": "360 One Prime Limited**",
+        "isin": "INE248U07GJ0",
+        "weight": 1.94,
+        "sector": "ICRA AA"
+      },
+      {
+        "stock": "Piramal Finance Limited**",
+        "isin": "INE202B07JW4",
+        "weight": 1.77,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Nuvama Wealth Finance Limited**",
+        "isin": "INE918K07PY9",
+        "weight": 1.39,
+        "sector": "CARE AA"
+      },
+      {
+        "stock": "Nuvama Wealth and Investment Limited**",
+        "isin": "INE523L07AS9",
+        "weight": 1.34,
+        "sector": "CARE AA"
+      },
+      {
+        "stock": "Torrent Pharmaceuticals Limited**",
+        "isin": "INE685A07132",
+        "weight": 1.32,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Mankind Pharma Limited**",
+        "isin": "INE634S07033",
+        "weight": 1.31,
+        "sector": "CRISIL AA+"
+      },
+      {
+        "stock": "Torrent Power Limited**",
+        "isin": "INE813H07192",
+        "weight": 1.31,
+        "sector": "CRISIL AA+"
+      },
+      {
+        "stock": "Cholamandalam Investment and Finance Company Limited",
+        "isin": "INE121A07SN8",
+        "weight": 1.28,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Shriram Pistons & Rings Limited**",
+        "isin": "INE526E07015",
+        "weight": 1.28,
+        "sector": "IND AA+"
+      },
+      {
+        "stock": "Piramal Finance Limited**",
+        "isin": "INE202B07JR4",
+        "weight": 1.04,
+        "sector": "CARE AA+"
+      },
+      {
+        "stock": "Adani Power Limited**",
+        "isin": "INE814H07190",
+        "weight": 1.03,
+        "sector": "CRISIL AA"
+      },
+      {
+        "stock": "Tata Capital Limited**",
+        "isin": "INE601U08309",
+        "weight": 0.87,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Cholamandalam Investment and Finance Company Limited**",
+        "isin": "INE121A07SH0",
+        "weight": 0.82,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Muthoot Finance Limited**",
+        "isin": "INE414G07JF9",
+        "weight": 0.7,
+        "sector": "CRISIL AA+"
+      },
+      {
+        "stock": "National Bank for Agriculture and Rural Development",
+        "isin": "INE261F08EO7",
+        "weight": 0.68,
+        "sector": "CRISIL AAA"
       },
       {
         "stock": "National Bank for Agriculture and Rural Development**",
-        "isin": "INE261F08DR2",
-        "weight": 0.01,
+        "isin": "INE261F08EI9",
+        "weight": 0.68,
+        "sector": "ICRA AAA"
+      },
+      {
+        "stock": "LIC Housing Finance Limited",
+        "isin": "INE115A07QC7",
+        "weight": 0.67,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Sundaram Finance Limited**",
+        "isin": "INE660A07RU2",
+        "weight": 0.67,
+        "sector": "ICRA AAA"
+      },
+      {
+        "stock": "LIC Housing Finance Limited",
+        "isin": "INE115A07PN6",
+        "weight": 0.66,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Tata Capital Limited**",
+        "isin": "INE976I07DC3",
+        "weight": 0.66,
         "sector": "ICRA AAA"
       },
       {
         "stock": "LIC Housing Finance Limited**",
-        "isin": "INE115A07QD5",
-        "weight": 0.01,
+        "isin": "INE115A07RE1",
+        "weight": 0.66,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "HDFC Bank Limited**",
-        "isin": "INE040A08849",
-        "weight": 0.01,
+        "stock": "Bajaj Housing Finance Limited**",
+        "isin": "INE377Y07557",
+        "weight": 0.65,
         "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Torrent Power Limited**",
+        "isin": "INE813H07150",
+        "weight": 0.65,
+        "sector": "CRISIL AA+"
+      },
+      {
+        "stock": "Muthoot Finance Limited**",
+        "isin": "INE414G07IQ8",
+        "weight": 0.41,
+        "sector": "CRISIL AA+"
       },
       {
         "stock": "National Bank for Agriculture and Rural Development**",
-        "isin": "INE261F08DO9",
-        "weight": 0.01,
+        "isin": "INE261F08EA6",
+        "weight": 0.27,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "Power Finance Corporation Limited**",
-        "isin": "INE134E07AI1",
-        "weight": 0.01,
+        "stock": "Piramal Finance Limited**",
+        "isin": "INE516Y07519",
+        "weight": 0.27,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Small Industries Development Bank of India",
+        "isin": "INE556F08KK5",
+        "weight": 0.14,
         "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Piramal Finance Limited**",
+        "isin": "INE202B07JS2",
+        "weight": 0.13,
+        "sector": "CARE AA+"
       }
     ],
-    "holdingsDate": "2026-03-15"
+    "holdingsDate": "2026-07-12"
   },
   {
     "schemeCode": "100077",
@@ -58013,128 +58043,134 @@
       {
         "stock": "HDFC Bank Limited",
         "isin": "INE040A01034",
-        "weight": 7.76,
+        "weight": 8.23,
         "sector": "Banks"
       },
       {
         "stock": "Power Grid Corporation of India Limited",
         "isin": "INE752E01010",
-        "weight": 7.16,
+        "weight": 6.98,
         "sector": "Power"
-      },
-      {
-        "stock": "Coal India Limited",
-        "isin": "INE522F01014",
-        "weight": 6.79,
-        "sector": "Consumable Fuels"
       },
       {
         "stock": "Bajaj Holdings & Investment Limited",
         "isin": "INE118A01012",
-        "weight": 6.6,
+        "weight": 6.68,
         "sector": "Finance"
       },
       {
-        "stock": "Maharashtra Scooters Limited",
-        "isin": "INE288A01013",
-        "weight": 5.45,
-        "sector": "Finance"
+        "stock": "Coal India Limited",
+        "isin": "INE522F01014",
+        "weight": 6.44,
+        "sector": "Consumable Fuels"
       },
       {
         "stock": "ITC Limited",
         "isin": "INE154A01025",
-        "weight": 5.35,
+        "weight": 5.29,
         "sector": "Diversified FMCG"
+      },
+      {
+        "stock": "Maharashtra Scooters Limited",
+        "isin": "INE288A01013",
+        "weight": 5.28,
+        "sector": "Finance"
       },
       {
         "stock": "ICICI Bank Limited",
         "isin": "INE090A01021",
-        "weight": 4.62,
+        "weight": 5,
         "sector": "Banks"
       },
       {
         "stock": "Kotak Mahindra Bank Limited",
         "isin": "INE237A01036",
-        "weight": 4.22,
+        "weight": 4.27,
         "sector": "Banks"
-      },
-      {
-        "stock": "HCL Technologies Limited",
-        "isin": "INE860A01027",
-        "weight": 4.09,
-        "sector": "IT - Software"
       },
       {
         "stock": "Maruti Suzuki India Limited",
         "isin": "INE585B01010",
-        "weight": 3.77,
+        "weight": 4.01,
         "sector": "Automobiles"
       },
       {
         "stock": "Axis Bank Limited",
         "isin": "INE238A01034",
-        "weight": 3.71,
+        "weight": 3.84,
         "sector": "Banks"
       },
       {
-        "stock": "Infosys Limited",
-        "isin": "INE009A01021",
-        "weight": 3.56,
+        "stock": "HCL Technologies Limited",
+        "isin": "INE860A01027",
+        "weight": 3.67,
         "sector": "IT - Software"
       },
       {
         "stock": "Mahindra & Mahindra Limited",
         "isin": "INE101A01026",
-        "weight": 3.53,
+        "weight": 3.52,
         "sector": "Automobiles"
       },
       {
         "stock": "Bharti Airtel Limited",
         "isin": "INE397D01024",
-        "weight": 3.46,
+        "weight": 3.47,
         "sector": "Telecom - Services"
+      },
+      {
+        "stock": "Infosys Limited",
+        "isin": "INE009A01021",
+        "weight": 3.04,
+        "sector": "IT - Software"
       },
       {
         "stock": "CMS Info System Limited",
         "isin": "INE925R01014",
-        "weight": 3.39,
+        "weight": 3.03,
         "sector": "Commercial Services & Supplies"
       },
       {
         "stock": "CCL Products (India) Limited",
         "isin": "INE421D01022",
-        "weight": 2.67,
+        "weight": 2.96,
         "sector": "Agricultural Food & other Products"
       },
       {
         "stock": "Tata Consultancy Services Limited",
         "isin": "INE467B01029",
-        "weight": 1.86,
-        "sector": "IT - Software"
-      },
-      {
-        "stock": "Wipro Limited",
-        "isin": "INE075A01022",
-        "weight": 1.82,
+        "weight": 1.65,
         "sector": "IT - Software"
       },
       {
         "stock": "Zydus Lifesciences Limited",
         "isin": "INE010B01027",
-        "weight": 1.58,
+        "weight": 1.62,
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "Dr. Reddy's Laboratories Limited",
         "isin": "INE089A01031",
-        "weight": 1.43,
+        "weight": 1.48,
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "Cipla Limited",
         "isin": "INE059A01026",
-        "weight": 1.39,
+        "weight": 1.44,
         "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "stock": "Wipro Limited",
+        "isin": "INE075A01022",
+        "weight": 1.42,
+        "sector": "IT - Software"
+      },
+      {
+        "stock": "Zydus Wellness Limited",
+        "isin": "INE768C01028",
+        "weight": 1.2,
+        "sector": "Food Products"
       },
       {
         "stock": "VST Industries Limited",
@@ -58143,93 +58179,93 @@
         "sector": "Cigarettes & Tobacco Products"
       },
       {
-        "stock": "Zydus Wellness Limited",
-        "isin": "INE768C01028",
-        "weight": 1.07,
-        "sector": "Food Products"
-      },
-      {
-        "stock": "Indian Energy Exchange Limited",
-        "isin": "INE022Q01020",
-        "weight": 0.92,
-        "sector": "Capital Markets"
+        "stock": "Seshaasai Technologies Limited",
+        "isin": "INE04VU01023",
+        "weight": 0.96,
+        "sector": "Financial Technology (Fintech)"
       },
       {
         "stock": "West Coast Paper Mills Limited",
         "isin": "INE976A01021",
-        "weight": 0.84,
+        "weight": 0.9,
         "sector": "Paper, Forest & Jute Products"
       },
       {
-        "stock": "Seshaasai Technologies Limited",
-        "isin": "INE04VU01023",
-        "weight": 0.69,
-        "sector": "Financial Technology (Fintech)"
+        "stock": "Indian Energy Exchange Limited",
+        "isin": "INE022Q01020",
+        "weight": 0.88,
+        "sector": "Capital Markets"
       },
       {
         "stock": "Sharda Motor Industries Ltd.",
         "isin": "INE597I01028",
-        "weight": 0.52,
+        "weight": 0.54,
         "sector": "Auto Components"
       },
       {
         "stock": "Indraprastha Gas Limited",
         "isin": "INE203G01027",
-        "weight": 0.51,
+        "weight": 0.52,
         "sector": "Gas"
       },
       {
         "stock": "EID Parry India Limited",
         "isin": "INE126A01031",
-        "weight": 0.48,
+        "weight": 0.45,
         "sector": "Food Products"
       },
       {
         "stock": "Narayana Hrudayalaya Limited",
         "isin": "INE410P01011",
-        "weight": 0.36,
+        "weight": 0.37,
         "sector": "Healthcare Services"
       },
       {
         "stock": "The Great Eastern Shipping Company Limited",
         "isin": "INE017A01032",
-        "weight": 0.34,
+        "weight": 0.36,
         "sector": "Transport Services"
       },
       {
         "stock": "Central Depository Services (India) Limited",
         "isin": "INE736A01011",
-        "weight": 0.23,
+        "weight": 0.24,
         "sector": "Capital Markets"
       },
       {
         "stock": "Swaraj Engines Limited",
         "isin": "INE277A01016",
-        "weight": 0.22,
+        "weight": 0.23,
         "sector": "Industrial Products"
       },
       {
         "stock": "Sundrop Brands Ltd",
         "isin": "INE209A01019",
-        "weight": 0.2,
+        "weight": 0.19,
         "sector": "Agricultural Food & other Products"
       },
       {
         "stock": "Indus Towers Limited",
         "isin": "INE121J01017",
-        "weight": 0.12,
+        "weight": 0.1,
         "sector": "Telecom - Services"
+      },
+      {
+        "stock": "Petronet LNG Limited",
+        "isin": "INE347G01014",
+        "weight": 0.1,
+        "sector": "Gas"
       },
       {
         "stock": "Mahanagar Gas Limited",
         "isin": "INE002S01010",
-        "weight": 0.08,
+        "weight": 0.09,
         "sector": "Gas"
       },
       {
         "stock": "ICRA Limited",
         "isin": "INE725G01011",
-        "weight": 0.06,
+        "weight": 0.05,
         "sector": "Capital Markets"
       },
       {
@@ -58251,7 +58287,7 @@
         "sector": "Textiles & Apparels"
       }
     ],
-    "holdingsDate": "2026-06-14"
+    "holdingsDate": "2026-07-12"
   },
   {
     "schemeCode": "148958",
@@ -61672,5 +61708,47 @@
       }
     ],
     "holdingsDate": "2026-05-24"
+  },
+  {
+    "schemeCode": "143260",
+    "schemeName": "Parag Parikh Liquid Fund- Regular Plan- Growth",
+    "shortName": "Parag Parikh Liquid Fund",
+    "category": "Equity",
+    "fundHouse": "Parag Parikh Mutual Fund",
+    "expenseRatio": null,
+    "aum": null,
+    "holdings": [
+      {
+        "stock": "7.13% Power Finance Corporation Limited (15/07/2026)",
+        "isin": "INE134E08LP1",
+        "weight": 2.69,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "6.72% IndiGrid Infrastructure Trust (14/09/2026)",
+        "isin": "INE219X07306",
+        "weight": 1.79,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "7.77% Power Finance Corporation Limited (15/07/2026)",
+        "isin": "INE134E08MC7",
+        "weight": 1.35,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "7.4% National Housing Bank (16/07/2026)",
+        "isin": "INE557F08FS6",
+        "weight": 0.9,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "7.58% National Bank For Agriculture and Rural Development (31/07/2026) #",
+        "isin": "INE261F08DX0",
+        "weight": 0.45,
+        "sector": "CRISIL AAA"
+      }
+    ],
+    "holdingsDate": "2026-07-12"
   }
 ]
