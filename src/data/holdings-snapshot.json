@@ -57777,189 +57777,201 @@
     "aum": null,
     "holdings": [
       {
+        "stock": "Cholamandalam Investment and Finance Co Ltd**",
+        "isin": "INE121A07SH0",
+        "weight": 1.84,
+        "sector": "ICRA AA+"
+      },
+      {
         "stock": "Aditya Birla Renewables Ltd**",
         "isin": "INE01QP08016",
-        "weight": 1.8,
+        "weight": 1.72,
         "sector": "CRISIL AA"
+      },
+      {
+        "stock": "National Bank For Agriculture & Rural Development**",
+        "isin": "INE261F08EI9",
+        "weight": 1.71,
+        "sector": "ICRA AAA"
       },
       {
         "stock": "360 One Prime Ltd**",
         "isin": "INE248U07GJ0",
-        "weight": 1.7,
+        "weight": 1.61,
         "sector": "ICRA AA"
       },
       {
         "stock": "Piramal Finance Ltd**",
         "isin": "INE202B07JW4",
-        "weight": 1.32,
+        "weight": 1.26,
         "sector": "ICRA AA+"
       },
       {
         "stock": "Nuvama Wealth Finance Ltd**",
         "isin": "INE918K07PY9",
-        "weight": 1.22,
+        "weight": 1.16,
         "sector": "CARE AA"
       },
       {
-        "stock": "National Bank For Agriculture & Rural Development**",
-        "isin": "INE261F08EI9",
-        "weight": 1.19,
-        "sector": "ICRA AAA"
+        "stock": "LIC Housing Finance Ltd**",
+        "isin": "INE115A07QZ8",
+        "weight": 1.13,
+        "sector": "CRISIL AAA"
       },
       {
         "stock": "Nuvama Wealth and Investment Ltd**",
         "isin": "INE523L07AS9",
-        "weight": 1.18,
+        "weight": 1.13,
         "sector": "CARE AA"
       },
       {
         "stock": "Torrent Pharmaceuticals Ltd**",
         "isin": "INE685A07132",
-        "weight": 1.16,
+        "weight": 1.11,
         "sector": "ICRA AA+"
       },
       {
-        "stock": "Bajaj Housing Finance Ltd**",
+        "stock": "Bajaj Housing Finance Ltd",
         "isin": "INE377Y07532",
-        "weight": 1.15,
+        "weight": 1.1,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Mankind Pharma Ltd**",
         "isin": "INE634S07033",
-        "weight": 1.15,
+        "weight": 1.1,
         "sector": "CRISIL AA+"
       },
       {
         "stock": "Torrent Power Ltd**",
         "isin": "INE813H07192",
-        "weight": 1.15,
+        "weight": 1.1,
         "sector": "CRISIL AA+"
-      },
-      {
-        "stock": "Cholamandalam Investment and Finance Co Ltd",
-        "isin": "INE121A07SN8",
-        "weight": 1.13,
-        "sector": "ICRA AA+"
       },
       {
         "stock": "SPR Auto Technologies Ltd**",
         "isin": "INE526E07015",
-        "weight": 1.12,
+        "weight": 1.07,
         "sector": "IND AA+"
       },
       {
-        "stock": "Piramal Finance Ltd**",
+        "stock": "Piramal Finance Ltd",
         "isin": "INE202B07JR4",
-        "weight": 0.91,
+        "weight": 0.87,
         "sector": "CARE AA+"
       },
       {
         "stock": "Adani Power Ltd**",
         "isin": "INE814H07190",
-        "weight": 0.9,
+        "weight": 0.86,
         "sector": "CRISIL AA"
       },
       {
-        "stock": "Tata Capital Ltd**",
-        "isin": "INE601U08309",
-        "weight": 0.77,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Cholamandalam Investment and Finance Co Ltd**",
-        "isin": "INE121A07SH0",
-        "weight": 0.72,
-        "sector": "ICRA AA+"
-      },
-      {
-        "stock": "Tata Capital Housing Finance Ltd**",
-        "isin": "INE033L07IO1",
-        "weight": 0.6,
+        "stock": "LIC Housing Finance Ltd",
+        "isin": "INE115A07PV9",
+        "weight": 0.76,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "National Bank For Agriculture & Rural Development",
         "isin": "INE261F08EO7",
-        "weight": 0.6,
+        "weight": 0.57,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "LIC Housing Finance Ltd",
+        "stock": "LIC Housing Finance Ltd**",
         "isin": "INE115A07QC7",
-        "weight": 0.59,
+        "weight": 0.56,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Sundaram Finance Ltd**",
         "isin": "INE660A07RU2",
-        "weight": 0.59,
+        "weight": 0.56,
         "sector": "ICRA AAA"
       },
       {
-        "stock": "LIC Housing Finance Ltd**",
-        "isin": "INE115A07PN6",
-        "weight": 0.58,
+        "stock": "Torrent Power Ltd**",
+        "isin": "INE813H07341",
+        "weight": 0.56,
+        "sector": "CRISIL AA+"
+      },
+      {
+        "stock": "National Bank For Agriculture & Rural Development**",
+        "isin": "INE261F08DV4",
+        "weight": 0.56,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "Tata Capital Ltd",
+        "stock": "LIC Housing Finance Ltd",
+        "isin": "INE115A07PN6",
+        "weight": 0.56,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Tata Capital Ltd**",
         "isin": "INE976I07DC3",
-        "weight": 0.58,
+        "weight": 0.55,
         "sector": "ICRA AAA"
       },
       {
-        "stock": "National Bank For Agriculture & Rural Development",
+        "stock": "National Bank For Agriculture & Rural Development**",
         "isin": "INE261F08EF5",
-        "weight": 0.58,
+        "weight": 0.55,
         "sector": "ICRA AAA"
       },
       {
         "stock": "LIC Housing Finance Ltd**",
         "isin": "INE115A07RE1",
-        "weight": 0.58,
+        "weight": 0.55,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bajaj Housing Finance Ltd**",
         "isin": "INE377Y07557",
-        "weight": 0.57,
+        "weight": 0.55,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Torrent Power Ltd**",
         "isin": "INE813H07150",
-        "weight": 0.57,
+        "weight": 0.55,
         "sector": "CRISIL AA+"
       },
       {
-        "stock": "Indian Railway Finance Corporation Ltd",
-        "isin": "INE053F08312",
-        "weight": 0.57,
-        "sector": "CRISIL AAA"
+        "stock": "Muthoot Finance Ltd**",
+        "isin": "INE414G07IR6",
+        "weight": 0.54,
+        "sector": "CRISIL AA+"
       },
       {
-        "stock": "Indian Railway Finance Corporation Ltd**",
-        "isin": "INE053F08304",
-        "weight": 0.57,
+        "stock": "LIC Housing Finance Ltd",
+        "isin": "INE115A07QO2",
+        "weight": 0.54,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Muthoot Finance Ltd**",
         "isin": "INE414G07JF9",
-        "weight": 0.57,
+        "weight": 0.54,
         "sector": "CRISIL AA+"
+      },
+      {
+        "stock": "Tata Capital Housing Finance Ltd**",
+        "isin": "INE033L07IO1",
+        "weight": 0.53,
+        "sector": "CRISIL AAA"
       },
       {
         "stock": "National Bank For Agriculture & Rural Development**",
         "isin": "INE261F08EA6",
-        "weight": 0.24,
+        "weight": 0.23,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Piramal Finance Ltd**",
         "isin": "INE516Y07519",
-        "weight": 0.24,
+        "weight": 0.23,
         "sector": "ICRA AA+"
       },
       {
@@ -57969,7 +57981,7 @@
         "sector": "CARE AA+"
       }
     ],
-    "holdingsDate": "2026-07-26"
+    "holdingsDate": "2026-08-09"
   },
   {
     "schemeCode": "100077",
