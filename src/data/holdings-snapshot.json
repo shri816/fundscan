@@ -62561,287 +62561,311 @@
       {
         "stock": "Bharti Telecom Limited**",
         "isin": "INE403D08272",
-        "weight": 3.78,
+        "weight": 3.93,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "National Bank For Agriculture & Rural Development",
-        "isin": "INE261F08EO7",
-        "weight": 3.15,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "National Bank For Agriculture & Rural Development",
+        "stock": "National Bank For Agriculture & Rural Development**",
         "isin": "INE261F08EK5",
-        "weight": 2.72,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Small Industries Development Bank Of India**",
-        "isin": "INE556F08LE6",
-        "weight": 2.67,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "REC Limited**",
-        "isin": "INE020B08EK4",
-        "weight": 2.66,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "REC Limited**",
-        "isin": "INE020B08FF1",
-        "weight": 2.63,
-        "sector": "ICRA AAA"
-      },
-      {
-        "stock": "Bajaj Housing Finance Limited",
-        "isin": "INE377Y07482",
-        "weight": 2.14,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Tata Capital Housing Finance Limited",
-        "isin": "INE033L07HY2",
-        "weight": 1.69,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "LIC Housing Finance Limited**",
-        "isin": "INE115A07MQ6",
-        "weight": 1.67,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Small Industries Development Bank Of India**",
-        "isin": "INE556F08KU4",
-        "weight": 1.66,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Mahindra Rural Housing Finance Limited**",
-        "isin": "INE950O07545",
-        "weight": 1.63,
+        "weight": 2.83,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Power Finance Corporation Limited**",
         "isin": "INE134E08OC3",
-        "weight": 1.62,
+        "weight": 2.8,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Small Industries Development Bank Of India**",
+        "isin": "INE556F08LE6",
+        "weight": 2.76,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "REC Limited**",
+        "isin": "INE020B08EK4",
+        "weight": 2.76,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Bajaj Housing Finance Limited**",
+        "isin": "INE377Y07482",
+        "weight": 2.22,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bajaj Finance Limited",
         "isin": "INE296A07TJ4",
-        "weight": 1.48,
+        "weight": 1.86,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Tata Capital Housing Finance Limited**",
+        "isin": "INE033L07HY2",
+        "weight": 1.75,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Small Industries Development Bank Of India**",
+        "isin": "INE556F08KU4",
+        "weight": 1.73,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Mahindra Rural Housing Finance Limited**",
+        "isin": "INE950O07545",
+        "weight": 1.69,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "REC Limited**",
+        "isin": "INE020B08FF1",
+        "weight": 1.64,
+        "sector": "ICRA AAA"
+      },
+      {
+        "stock": "National Bank For Agriculture & Rural Development**",
+        "isin": "INE261F08EO7",
+        "weight": 1.41,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bharti Telecom Limited**",
         "isin": "INE403D08306",
-        "weight": 1.21,
+        "weight": 1.26,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Bajaj Finance Limited**",
+        "isin": "INE296A07TN6",
+        "weight": 1.2,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bajaj Finance Limited**",
         "isin": "INE296A07TF2",
-        "weight": 1.11,
+        "weight": 1.15,
         "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "REC Limited**",
+        "isin": "INE020B08FR6",
+        "weight": 1.13,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "National Bank For Agriculture & Rural Development**",
+        "isin": "INE261F08EM1",
+        "weight": 1.13,
+        "sector": "ICRA AAA"
+      },
+      {
+        "stock": "Bajaj Housing Finance Limited**",
+        "isin": "INE377Y07532",
+        "weight": 1.13,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "National Bank For Agriculture & Rural Development**",
+        "isin": "INE261F08CM5",
+        "weight": 1.13,
+        "sector": "ICRA AAA"
+      },
+      {
+        "stock": "REC Limited**",
+        "isin": "INE020B08EX7",
+        "weight": 1.12,
+        "sector": "ICRA AAA"
       },
       {
         "stock": "LIC Housing Finance Limited**",
-        "isin": "INE115A07QW5",
-        "weight": 1.1,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "National Bank For Agriculture & Rural Development",
-        "isin": "INE261F08EM1",
-        "weight": 1.09,
-        "sector": "ICRA AAA"
-      },
-      {
-        "stock": "REC Limited",
-        "isin": "INE020B08EX7",
-        "weight": 1.08,
-        "sector": "ICRA AAA"
-      },
-      {
-        "stock": "Small Industries Development Bank Of India**",
-        "isin": "INE556F08LC0",
-        "weight": 1.07,
+        "isin": "INE115A07PV9",
+        "weight": 1.11,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Power Finance Corporation Limited**",
         "isin": "INE134E08JC3",
-        "weight": 1.07,
+        "weight": 1.11,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Small Industries Development Bank Of India",
+        "isin": "INE556F08LC0",
+        "weight": 1.11,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "ICICI Home Finance Co Limited**",
         "isin": "INE071G07819",
-        "weight": 1.06,
+        "weight": 1.1,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bajaj Housing Finance Limited**",
         "isin": "INE377Y07623",
-        "weight": 1.06,
+        "weight": 1.1,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bajaj Housing Finance Limited**",
         "isin": "INE377Y07565",
-        "weight": 1.06,
+        "weight": 1.1,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "Small Industries Development Bank Of India**",
+        "stock": "Small Industries Development Bank Of India",
         "isin": "INE556F08KZ3",
-        "weight": 1.04,
+        "weight": 1.08,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "REC Limited**",
         "isin": "INE020B08GD4",
-        "weight": 0.96,
+        "weight": 0.99,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Mahindra Rural Housing Finance Limited**",
         "isin": "INE950O07511",
-        "weight": 0.94,
+        "weight": 0.98,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bajaj Finance Limited**",
         "isin": "INE296A07TW7",
-        "weight": 0.75,
+        "weight": 0.78,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "LIC Housing Finance Limited**",
-        "isin": "INE115A07QZ8",
-        "weight": 0.56,
+        "isin": "INE115A07MQ6",
+        "weight": 0.58,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "Bajaj Housing Finance Limited**",
-        "isin": "INE377Y07383",
-        "weight": 0.56,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Bajaj Finance Limited",
-        "isin": "INE296A07TN6",
-        "weight": 0.56,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "REC Limited",
+        "stock": "REC Limited**",
         "isin": "INE020B08AA3",
-        "weight": 0.56,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Jio Credit Limited",
-        "isin": "INE282H07034",
-        "weight": 0.56,
+        "weight": 0.58,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Bajaj Finance Limited**",
         "isin": "INE296A07TP1",
-        "weight": 0.55,
+        "weight": 0.58,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "National Bank For Agriculture & Rural Development",
+        "stock": "Jio Credit Limited**",
+        "isin": "INE282H07034",
+        "weight": 0.58,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "National Bank For Agriculture & Rural Development**",
         "isin": "INE261F08DV4",
-        "weight": 0.55,
+        "weight": 0.57,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Export-Import Bank Of India**",
         "isin": "INE514E08FJ9",
-        "weight": 0.55,
+        "weight": 0.57,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "REC Limited**",
         "isin": "INE020B08EH0",
-        "weight": 0.55,
+        "weight": 0.57,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "Power Finance Corporation Limited",
+        "stock": "Power Finance Corporation Limited**",
         "isin": "INE134E08NP7",
-        "weight": 0.54,
+        "weight": 0.56,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "National Bank For Agriculture & Rural Development**",
         "isin": "INE261F08ER0",
-        "weight": 0.54,
+        "weight": 0.56,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "LIC Housing Finance Limited**",
         "isin": "INE115A07QO2",
-        "weight": 0.54,
+        "weight": 0.56,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "REC Limited**",
+        "isin": "INE020B08FW6",
+        "weight": 0.56,
+        "sector": "ICRA AAA"
+      },
+      {
+        "stock": "Bajaj Housing Finance Limited**",
+        "isin": "INE377Y07300",
+        "weight": 0.56,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "National Bank For Agriculture & Rural Development**",
         "isin": "INE261F08EH1",
-        "weight": 0.54,
-        "sector": "CRISIL AAA"
-      },
-      {
-        "stock": "Bajaj Housing Finance Limited**",
-        "isin": "INE377Y07300",
-        "weight": 0.54,
+        "weight": 0.56,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Sundaram Finance Limited**",
         "isin": "INE660A07RT4",
-        "weight": 0.54,
+        "weight": 0.56,
         "sector": "ICRA AAA"
+      },
+      {
+        "stock": "Mindspace Business Parks REIT**",
+        "isin": "INE0CCU07066",
+        "weight": 0.56,
+        "sector": "CRISIL AAA"
       },
       {
         "stock": "Tata Capital Housing Finance Limited**",
         "isin": "INE033L07IN3",
-        "weight": 0.54,
+        "weight": 0.56,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Small Industries Development Bank Of India**",
+        "isin": "INE556F08KV2",
+        "weight": 0.55,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Power Finance Corporation Limited**",
         "isin": "INE134E08NW3",
-        "weight": 0.44,
+        "weight": 0.46,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Kotak Mahindra Prime Limited**",
         "isin": "INE916DA7TB2",
-        "weight": 0.32,
+        "weight": 0.33,
         "sector": "CRISIL AAA"
       },
       {
-        "stock": "Bajaj Finance Limited",
+        "stock": "Bajaj Finance Limited**",
         "isin": "INE296A07TC9",
-        "weight": 0.27,
+        "weight": 0.22,
         "sector": "CRISIL AAA"
       },
       {
         "stock": "Mahindra & Mahindra Financial Services Limited**",
         "isin": "INE774D07VJ0",
-        "weight": 0.05,
+        "weight": 0.06,
         "sector": "CRISIL AAA"
       }
     ],
-    "holdingsDate": "2026-09-06"
+    "holdingsDate": "2026-09-27"
   },
   {
     "schemeCode": "105668",
@@ -62897,146 +62921,146 @@
       {
         "stock": "HDFC Bank Limited",
         "isin": "INE040A01034",
-        "weight": 2.66,
+        "weight": 2.73,
         "sector": "Banks"
       },
       {
         "stock": "ICICI Bank Limited",
         "isin": "INE090A01021",
-        "weight": 1.97,
+        "weight": 1.86,
         "sector": "Banks"
       },
       {
         "stock": "Mahindra & Mahindra Limited",
         "isin": "INE101A01026",
-        "weight": 1.18,
+        "weight": 1.11,
         "sector": "Automobiles"
       },
       {
         "stock": "ITC Limited",
         "isin": "INE154A01025",
-        "weight": 1.07,
+        "weight": 1.09,
         "sector": "Diversified FMCG"
       },
       {
         "stock": "NTPC Limited",
         "isin": "INE733E01010",
-        "weight": 0.99,
+        "weight": 1.01,
         "sector": "Power"
       },
       {
         "stock": "Indigo Paints Limited",
         "isin": "INE09VQ01012",
-        "weight": 0.91,
+        "weight": 0.85,
         "sector": "Consumer Durables"
       },
       {
         "stock": "Alkem Laboratories Limited",
         "isin": "INE540L01014",
-        "weight": 0.84,
+        "weight": 0.83,
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "Indus Towers Limited",
         "isin": "INE121J01017",
-        "weight": 0.84,
+        "weight": 0.83,
         "sector": "Telecom - Services"
       },
       {
         "stock": "Kotak Mahindra Bank Limited",
         "isin": "INE237A01036",
-        "weight": 0.81,
-        "sector": "Banks"
-      },
-      {
-        "stock": "Cipla Limited",
-        "isin": "INE059A01026",
         "weight": 0.8,
-        "sector": "Pharmaceuticals & Biotechnology"
-      },
-      {
-        "stock": "Axis Bank Limited",
-        "isin": "INE238A01034",
-        "weight": 0.79,
         "sector": "Banks"
       },
       {
         "stock": "Oil & Natural Gas Corporation Limited",
         "isin": "INE213A01029",
-        "weight": 0.76,
+        "weight": 0.79,
         "sector": "Oil"
+      },
+      {
+        "stock": "Cipla Limited",
+        "isin": "INE059A01026",
+        "weight": 0.78,
+        "sector": "Pharmaceuticals & Biotechnology"
+      },
+      {
+        "stock": "Axis Bank Limited",
+        "isin": "INE238A01034",
+        "weight": 0.75,
+        "sector": "Banks"
       },
       {
         "stock": "SBI Life Insurance Co Limited",
         "isin": "INE123W01016",
-        "weight": 0.72,
+        "weight": 0.7,
         "sector": "Insurance"
       },
       {
         "stock": "HDFC Life Insurance Co Limited",
         "isin": "INE795G01014",
-        "weight": 0.72,
+        "weight": 0.69,
         "sector": "Insurance"
       },
       {
-        "stock": "Maruti Suzuki India Limited",
-        "isin": "INE585B01010",
-        "weight": 0.7,
-        "sector": "Automobiles"
+        "stock": "HDFC Asset Management Co Limited",
+        "isin": "INE127D01025",
+        "weight": 0.66,
+        "sector": "Capital Markets"
       },
       {
         "stock": "Hero MotoCorp Limited",
         "isin": "INE158A01026",
-        "weight": 0.67,
+        "weight": 0.64,
+        "sector": "Automobiles"
+      },
+      {
+        "stock": "Maruti Suzuki India Limited",
+        "isin": "INE585B01010",
+        "weight": 0.64,
         "sector": "Automobiles"
       },
       {
         "stock": "Canara HSBC Life Insurance Co Limited",
         "isin": "INE01TY01017",
-        "weight": 0.59,
+        "weight": 0.58,
         "sector": "Insurance"
       },
       {
         "stock": "Petronet LNG Limited",
         "isin": "INE347G01014",
-        "weight": 0.51,
+        "weight": 0.49,
         "sector": "Gas"
       },
       {
         "stock": "Infosys Limited",
         "isin": "INE009A01021",
-        "weight": 0.51,
+        "weight": 0.49,
         "sector": "IT - Software"
       },
       {
         "stock": "Cohance Lifesciences Limited",
         "isin": "INE03QK01018",
-        "weight": 0.43,
+        "weight": 0.4,
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "ICICI Lombard General Insurance Co Limited",
         "isin": "INE765G01017",
-        "weight": 0.42,
+        "weight": 0.39,
         "sector": "Insurance"
       },
       {
         "stock": "Syngene International Limited",
         "isin": "INE398R01022",
-        "weight": 0.35,
+        "weight": 0.34,
         "sector": "Healthcare Services"
       },
       {
         "stock": "Knowledge Realty Trust",
         "isin": "INE1JAR25012",
-        "weight": 0.3,
+        "weight": 0.31,
         "sector": "Realty"
-      },
-      {
-        "stock": "Life Insurance Corporation Of India",
-        "isin": "INE0J1Y01017",
-        "weight": 0.27,
-        "sector": "Insurance"
       },
       {
         "stock": "Coromandel International Limited",
@@ -63045,39 +63069,45 @@
         "sector": "Fertilizers & Agrochemicals"
       },
       {
+        "stock": "Life Insurance Corporation Of India",
+        "isin": "INE0J1Y01017",
+        "weight": 0.25,
+        "sector": "Insurance"
+      },
+      {
         "stock": "Alembic Pharmaceuticals Limited",
         "isin": "INE901L01018",
-        "weight": 0.22,
+        "weight": 0.23,
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
         "stock": "La Opala RG Limited",
         "isin": "INE059D01020",
-        "weight": 0.21,
+        "weight": 0.2,
         "sector": "Consumer Durables"
       },
       {
         "stock": "Cyient Limited",
         "isin": "INE136B01020",
-        "weight": 0.17,
+        "weight": 0.16,
         "sector": "IT - Services"
-      },
-      {
-        "stock": "Bharat Petroleum Corporation Limited",
-        "isin": "INE029A01011",
-        "weight": 0.15,
-        "sector": "Petroleum Products"
       },
       {
         "stock": "Indian Oil Corporation Limited",
         "isin": "INE242A01010",
-        "weight": 0.15,
+        "weight": 0.14,
+        "sector": "Petroleum Products"
+      },
+      {
+        "stock": "Bharat Petroleum Corporation Limited",
+        "isin": "INE029A01011",
+        "weight": 0.14,
         "sector": "Petroleum Products"
       },
       {
         "stock": "Hindustan Petroleum Corporation Limited",
         "isin": "INE094A01015",
-        "weight": 0.14,
+        "weight": 0.13,
         "sector": "Petroleum Products"
       },
       {
@@ -63087,13 +63117,13 @@
         "sector": "Pharmaceuticals & Biotechnology"
       },
       {
-        "stock": "Power Finance Corporation Limited",
-        "isin": "INE134E01011",
-        "weight": 0.03,
-        "sector": "Finance"
+        "stock": "Oberoi Realty Limited",
+        "isin": "INE093I01010",
+        "weight": 0.02,
+        "sector": "Realty"
       }
     ],
-    "holdingsDate": "2026-09-06"
+    "holdingsDate": "2026-09-27"
   },
   {
     "schemeCode": "136563",
@@ -63310,5 +63340,101 @@
       }
     ],
     "holdingsDate": "2026-09-06"
+  },
+  {
+    "schemeCode": "154652",
+    "schemeName": "DSP Financial Services Sectoral Debt Fund - Regular Plan - IDCW",
+    "shortName": "DSP Financial Services Sectoral Debt Fund",
+    "category": "Sectoral/Thematic",
+    "fundHouse": "DSP Mutual Fund",
+    "expenseRatio": null,
+    "aum": null,
+    "holdings": [
+      {
+        "stock": "Bajaj Finance Limited",
+        "isin": "INE296A07TJ4",
+        "weight": 9.3,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Bharti Telecom Limited**",
+        "isin": "INE403D08272",
+        "weight": 9,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Tata Capital Limited**",
+        "isin": "INE306N07NI9",
+        "weight": 8.07,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Kotak Mahindra Prime Limited**",
+        "isin": "INE916DA7SZ3",
+        "weight": 7.84,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Sundaram Finance Limited**",
+        "isin": "INE660A07RX6",
+        "weight": 7.8,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "HDB Financial Services Limited**",
+        "isin": "INE756I07EJ2",
+        "weight": 7.71,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Piramal Finance Limited**",
+        "isin": "INE202B07JR4",
+        "weight": 4.75,
+        "sector": "CARE AA+"
+      },
+      {
+        "stock": "Mahindra & Mahindra Financial Services Limited**",
+        "isin": "INE774D07UM6",
+        "weight": 4.65,
+        "sector": "IND AAA"
+      },
+      {
+        "stock": "Cholamandalam Investment and Finance Co Limited**",
+        "isin": "INE121A07SH0",
+        "weight": 4.19,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Tata Capital Housing Finance Limited**",
+        "isin": "INE033L07HY2",
+        "weight": 4.13,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Muthoot Finance Limited**",
+        "isin": "INE414G07JQ6",
+        "weight": 4.09,
+        "sector": "CRISIL AA+"
+      },
+      {
+        "stock": "Jio Credit Limited**",
+        "isin": "INE282H07034",
+        "weight": 4.07,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Mahindra Rural Housing Finance Limited**",
+        "isin": "INE950O07552",
+        "weight": 3.95,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "Jio Credit Limited**",
+        "isin": "INE282H07018",
+        "weight": 3.94,
+        "sector": "CRISIL AAA"
+      }
+    ],
+    "holdingsDate": "2026-09-27"
   }
 ]
