@@ -63436,5 +63436,143 @@
       }
     ],
     "holdingsDate": "2026-09-27"
+  },
+  {
+    "schemeCode": "101837",
+    "schemeName": "DSP Credit Risk Fund - Regular Plan - Growth",
+    "shortName": "DSP Credit Risk Fund",
+    "category": "Equity",
+    "fundHouse": "DSP Mutual Fund",
+    "expenseRatio": null,
+    "aum": null,
+    "holdings": [
+      {
+        "stock": "Aditya Birla Digital Fashion Ventures Limited**",
+        "isin": "INE0M8D08032",
+        "weight": 6.18,
+        "sector": "CRISIL AA-"
+      },
+      {
+        "stock": "Nuvoco Vistas Corporation Limited",
+        "isin": "INE118D08078",
+        "weight": 6.09,
+        "sector": "CRISIL AA"
+      },
+      {
+        "stock": "Adani Airport Holdings Limited**",
+        "isin": "INE0GCN07054",
+        "weight": 6.08,
+        "sector": "IND AA-"
+      },
+      {
+        "stock": "GMR Airports Limited**",
+        "isin": "INE776C08075",
+        "weight": 5.05,
+        "sector": "CRISIL AA-"
+      },
+      {
+        "stock": "JTPM Metal Traders Limited**",
+        "isin": "INE02PE08036",
+        "weight": 4.97,
+        "sector": "CRISIL AA"
+      },
+      {
+        "stock": "Tata Housing Development Co Limited**",
+        "isin": "INE582L08078",
+        "weight": 4.8,
+        "sector": "CARE AA"
+      },
+      {
+        "stock": "Aditya Birla Renewables Limited**",
+        "isin": "INE01QP08016",
+        "weight": 4.61,
+        "sector": "CRISIL AA"
+      },
+      {
+        "stock": "GMR Airports Limited**",
+        "isin": "INE776C08083",
+        "weight": 3.34,
+        "sector": "CRISIL AA-"
+      },
+      {
+        "stock": "Piramal Finance Limited**",
+        "isin": "INE202B07JW4",
+        "weight": 3.33,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Aadhar Housing Finance Limited**",
+        "isin": "INE883F07330",
+        "weight": 3.24,
+        "sector": "ICRA AA+"
+      },
+      {
+        "stock": "Kogta Financial India Limited**",
+        "isin": "INE192U07392",
+        "weight": 3.15,
+        "sector": "CARE AA-"
+      },
+      {
+        "stock": "Tata Projects Limited**",
+        "isin": "INE725H08196",
+        "weight": 3.15,
+        "sector": "CRISIL AA"
+      },
+      {
+        "stock": "Nuvama Wealth Finance Limited**",
+        "isin": "INE918K07PY9",
+        "weight": 3.11,
+        "sector": "CARE AA"
+      },
+      {
+        "stock": "Tata Projects Limited**",
+        "isin": "INE725H08295",
+        "weight": 3.08,
+        "sector": "IND AA"
+      },
+      {
+        "stock": "Adani Power Limited**",
+        "isin": "INE814H07190",
+        "weight": 3.06,
+        "sector": "CRISIL AA"
+      },
+      {
+        "stock": "Adani Power Limited**",
+        "isin": "INE814H07208",
+        "weight": 3.05,
+        "sector": "CRISIL AA"
+      },
+      {
+        "stock": "360 One Prime Limited**",
+        "isin": "INE248U07GC5",
+        "weight": 1.66,
+        "sector": "ICRA AA"
+      },
+      {
+        "stock": "National Bank For Agriculture & Rural Development",
+        "isin": "INE261F08EK5",
+        "weight": 1.6,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "REC Limited**",
+        "isin": "INE020B08BU9",
+        "weight": 1.59,
+        "sector": "CRISIL AAA"
+      },
+      {
+        "stock": "360 One Prime Limited**",
+        "isin": "INE248U07GA9",
+        "weight": 1.54,
+        "sector": "ICRA AA"
+      },
+      {
+        "stock": "Tata Projects Limited**",
+        "isin": "INE725H08287",
+        "weight": 0.93,
+        "sector": "IND AA"
+      }
+    ],
+    "holdingsDate": "2026-10-11"
   }
 ]
